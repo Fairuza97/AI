@@ -69,58 +69,34 @@ Each row of the user matrix represents a user and each column of the movie matri
 Figure 5 show Matrix factorization 
 
 
-## E   TRAINING THE COVID-19 FACE MASK DETECTION
+## E   PERFORMANCE METRICS
 
-We are now ready to train our face mask detector using Keras, TensorFlow, and Deep Learning.
+There are two main ways to evaluate a recommender system’s performance: Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE). RMSE measures the squared loss, while MAPE measures the absolute loss. Lower values mean lower error rates and thus better performance.
+Both are good as they allow for easy interpretation.
 
-From there, open up a terminal, and execute the following command:
+**Root Mean Squared Error (RMSE):**
+RMSE is the square root of the average of squared errors and is given by the below formula.
 
-- $ python train_mask_detector.py --dataset dataset
-- [INFO] loading images...
-- [INFO] compiling model...
-- [INFO] training head...
-- Train for 34 steps, validate on 276 samples
-- Epoch 1/20
-- 34/34 [==============================] - 30s 885ms/step - loss: 0.6431 - accuracy: 0.6676 - val_loss: 0.3696 - val_accuracy: 0.8242
-- Epoch 2/20
-- 34/34 [==============================] - 29s 853ms/step - loss: 0.3507 - accuracy: 0.8567 - val_loss: 0.1964 - val_accuracy: 0.9375
-- Epoch 3/20
-- 34/34 [==============================] - 27s 800ms/step - loss: 0.2792 - accuracy: 0.8820 - val_loss: 0.1383 - val_accuracy: 0.9531
-- Epoch 4/20
-- 34/34 [==============================] - 28s 814ms/step - loss: 0.2196 - accuracy: 0.9148 - val_loss: 0.1306 - val_accuracy: 0.9492
-- Epoch 5/20
-- 34/34 [==============================] - 27s 792ms/step - loss: 0.2006 - accuracy: 0.9213 - val_loss: 0.0863 - val_accuracy: 0.9688
-- ...
-- Epoch 16/20
-- 34/34 [==============================] - 27s 801ms/step - loss: 0.0767 - accuracy: 0.9766 - val_loss: 0.0291 - val_accuracy: 0.9922
-- Epoch 17/20
-- 34/34 [==============================] - 27s 795ms/step - loss: 0.1042 - accuracy: 0.9616 - val_loss: 0.0243 - val_accuracy: 1.0000
-- Epoch 18/20
-- 34/34 [==============================] - 27s 796ms/step - loss: 0.0804 - accuracy: 0.9672 - val_loss: 0.0244 - val_accuracy: 0.9961
-- Epoch 19/20
-- 34/34 [==============================] - 27s 793ms/step - loss: 0.0836 - accuracy: 0.9710 - val_loss: 0.0440 - val_accuracy: 0.9883
-- Epoch 20/20
-- 34/34 [==============================] - 28s 838ms/step - loss: 0.0717 - accuracy: 0.9710 - val_loss: 0.0270 - val_accuracy: 0.9922
-- [INFO] evaluating network...
+![Coding](https://github.com/Fairuza97/AI/blob/main/matric.JPG)
 
-|      |    precision    | recall| f1-score | support |
-|------|-----------------|-------|----------|---------|
-|with_mask|0.99|1.00|0.99|138|
-|without_mask|1.00|0.99|0.99|138|
-|accuracy| | |0.99|276|
-|macro avg|0.99|0.99|0.99|276|
-|weighted avg|0.99|0.99|0.99|276|
+Where:
+r is the actual rating,
+r^ is the predicted ratings and
+N is the total number of predictions
 
+**Mean Absolute Percentage Error (MAPE):**
+MAPE measures the error in percentage terms. It is given by the formula below:
 
-![Figure 4](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detector_plot.png)
+![Coding](https://github.com/Fairuza97/AI/blob/main/matric.JPG)
 
-Figure 4: Figure 10: COVID-19 face mask detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
+Where:
+r is the actual rating,
+r^ is the predicted ratings and
+N is the total number of predictions
 
-As you can see, we are obtaining ~99% accuracy on our test set.
+![Coding](https://github.com/Fairuza97/AI/blob/main/matric.JPG)
 
-Looking at Figure 4, we can see there are little signs of overfitting, with the validation loss lower than the training loss. 
-
-Given these results, we are hopeful that our model will generalize well to images outside our training and testing set.
+Our model resulted in 0.67 RMSE, and 19.86 MAPE on the unseen test data, which is a good-to-go model. An RMSE value of less than 2 is considered good, and a MAPE less than 25 is excellent. That said, this model can be further enhanced by adding features that would be recommended based on the top picks dependent on location or genre. We could also test the efficacy of our various models in real-time through A/B testing.
 
 
 ## F.  RESULT AND CONCLUSION
