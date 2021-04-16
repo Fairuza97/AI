@@ -31,8 +31,10 @@ Figure 1 shows the AI output of movie recommendation.
 
 ## C.  DATASET
 
-For our own system, we’ll use the open-source MovieLens dataset from GroupLens. This dataset contains 100K data points of various movies and users.
-We will use three columns from the data which is userId, movieId, rating
+For our own system, I use the open-source MovieLens dataset from GroupLens. This dataset contains 100K data points of various movies and users.
+I will use three columns from the data which is userId, movieId, rating.
+
+![Coding](https://github.com/Fairuza97/AI/blob/main/movieRecommendation.png)
 
 
 Given the trained COVID-19 face mask detector, we’ll proceed to implement two more additional Python scripts used to:
