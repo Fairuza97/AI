@@ -45,6 +45,7 @@ There are two categories for recommender system which are Content-Based Movie Re
 Content-based methods are based on the similarity of movie attributes. Using this type of recommender system, if a user watches one movie, similar movies are recommended. For example, if a user watches a comedy movie starring Adam Sandler, the system will recommend them movies in the same genre or starring the same actor, or both. With this in mind, the input for building a content-based recommender system is movie attributes.
 
 ![Coding](https://github.com/Fairuza97/AI/blob/main/ContentBased.JPG)
+
 Figure 3 show overview of content-based recommendation system
 
 **Collaborative Filtering Movie Recommendation Systems:** 
@@ -106,21 +107,13 @@ This recommendation system recommends different movies to users. Since this syst
 
 ## G.   PROJECT PRESENTATION 
 
-In this project, you learned how to create a COVID-19 face mask detector using OpenCV, Keras/TensorFlow, and Deep Learning.
+In this project, you learned how to create movie recommender using Collaborative filtering.
 
-To create our face mask detector, we trained a two-class model of people wearing masks and people not wearing masks.
+To create our movie recommeder can use Matrix Factorization-based Algorithm for Collaborative filtering
 
-We fine-tuned MobileNetV2 on our mask/no mask dataset and obtained a classifier that is ~99% accurate.
+You can watch this ideo to know more about Movie Recommendation System with Collaborative Filtering
 
-We then took this face mask classifier and applied it to both images and real-time video streams by:
-
-- Detecting faces in images/video
-- Extracting each individual face
-- Applying our face mask classifier
-
-Our face mask detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
-
-[![demo](https://img.youtube.com/vi/-p7HGwOWxtg/0.jpg)](https://www.youtube.com/watch?v=-p7HGwOWxtg "demo")
+[![demo](https://img.youtube.com/vi/3ecNC-So0r4/0.jpg)](https://www.youtube.com/watch?v=3ecNC-So0r4)
 
 
 
