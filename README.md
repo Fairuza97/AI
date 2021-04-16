@@ -101,20 +101,7 @@ Our model resulted in 0.67 RMSE, and 19.86 MAPE on the unseen test data, which i
 
 ## F.  RESULT AND CONCLUSION
 
-Detecting COVID-19 face masks with OpenCV in real-time
-
-You can then launch the mask detector in real-time video streams using the following command:
-- $ python detect_mask_video.py
-- [INFO] loading face detector model...
-- INFO] loading face mask detector model...
-- [INFO] starting video stream...
-
-[![Figure5](https://img.youtube.com/vi/wYwW7gAYyxw/0.jpg)](https://www.youtube.com/watch?v=wYwW7gAYyxw "Figure5")
-
-Figure 5: Mask detector in real-time video streams
-
-In Figure 5, you can see that our face mask detector is capable of running in real-time (and is correct in its predictions as well.
-
+This recommendation system recommends different movies to users. Since this system is based on a collaborative approach, it will give progressively explicit outcomes contrasted with different systems that are based on the content-based approach. Content-based recommendation systems are constrained to people, these systems don't prescribe things out of the box. These systems work on individual users’ ratings, hence limiting your choice to explore more. 
 
 
 ## G.   PROJECT PRESENTATION 
