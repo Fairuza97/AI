@@ -53,44 +53,20 @@ With collaborative filtering, the system is based on past interactions between u
 For example, if user A watches M1, M2, and M3, and user B watches M1, M3, M4, we recommend M1 and M3 to a similar user C. You can see how this looks in the figure below for clearer reference.
 
 ![Coding](https://github.com/Fairuza97/AI/blob/main/Collabarative.JPG)
+
 Figure 4 show an example of the collaborative filtering movie recommendation system
 
 
 ## D.   PROJECT STRUCTURE
 
-The following directory is our structure of our project:
-- $ tree --dirsfirst --filelimit 10
-- .
-- ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
-- ├── examples
-- │   ├── example_01.png
-- │   ├── example_02.png
-- │   └── example_03.png
-- ├── face_detector
-- │   ├── deploy.prototxt
-- │   └── res10_300x300_ssd_iter_140000.caffemodel
-- ├── detect_mask_image.py
-- ├── detect_mask_video.py
-- ├── mask_detector.model
-- ├── plot.png
-- └── train_mask_detector.py
-- 5 directories, 10 files
+For the project use Matrix Factorization-based Algorithm for Collaborative filtering
 
+Matrix factorization algorithms work by decomposing the user-movie interaction matrix into the product of two lower dimensionality rectangular matrices, say U and M. The decomposition is done in such a way that the product results in almost similar values to the user-movie interaction matrix. Here, U represents the user matrix, M represents the movie matrix, n is the number of users, and m is the number of movies.
+Each row of the user matrix represents a user and each column of the movie matrix represents a movie.
 
-The dataset/ directory contains the data described in the “Our COVID-19 face mask detection dataset” section.
+![Coding](https://github.com/Fairuza97/AI/blob/main/projectStructure.png)
 
-Three image examples/ are provided so that you can test the static image face mask detector.
-
-We’ll be reviewing three Python scripts in this tutorial:
-
-- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
-- detect_mask_image.py: Performs face mask detection in static images
-- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
-
-In the next two sections, we will train our face mask detector.
-
+Figure 4 show an example of the collaborative filtering movie recommendation system
 
 
 ## E   TRAINING THE COVID-19 FACE MASK DETECTION
