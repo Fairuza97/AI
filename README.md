@@ -4,12 +4,9 @@
 
 **Project Title:** Movie Recommendation
 
-**Team Members:** 
-- [insert Member Name]
-- [insert Member Name]
-- [insert Member Name]
-- [insert Member Name]
-
+**Name & Matric No:** 
+Nur Fairuza Syahira Binti Nor Hidan
+B031910233
 
 - [ ] **Objectives:**
 - Break out the project goal into more specific objectives
