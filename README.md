@@ -15,17 +15,14 @@
 - Break out the project goal into more specific objectives
 - To help people make the right choices, without having to expend their cognitive resources.
 - To search for content that would be interesting to an individual
-- [insert]
+- To help the people find something they like.
 
 
 ##  B. ABSTRACT 
 
-In late December 2019, a previous unidentified coronavirus, currently named as the 2019 novel coronavirus, emerged from Wuhan, China, and resulted in a formidable outbreak in many cities in China and expanded globally, including Thailand, Republic of Korea, Japan, United States, Philippines, Viet Nam, and our country (as of 2/6/2020 at least 25 countries). Covid-19 are Person-to-person transmission may occur through droplet or contact transmission and if there is a lack of stringent infection control or if no proper personal protective equipment available, it may jeopardize the first-line healthcare workers.
+Nowadays we live in era of abundance. For any given product, there are many of options to choose from. For example like streaming videos, social networking, online shopping; the list goes on. Recommender systems help to personalize a platform and help the user find something they like. The easiest and simplest way to do this is to recommend the most popular items. However, to really enhance the user experience through personalized recommendations, we need dedicated recommender systems.
 
-The best safety measure that can be taken is enforcing the people to wear a face mask whenever they are outside to slow down the COVID-19 infection rate. Mask wearing significantly reduced the amounts of various airborne viruses coming from infected patients, measured using the breath-capturing "Gesundheit II machine" developed by Dr. Don Milton, a professor of applied environmental health and a senior author of the study published April 3 in the journal Nature Medicine. In short, masks can help prevent the spread of COVID-19 and that the more people wearing masks, the better.
-
-As for now, you as a Data Scientist or Machine Learning Engineer or Practitioner are going to use AI technology to recognize people whether they are wearing face mask or not in the public or open space.
-
+There are two categories for recommender system which are Content-Based Movie Recommendation Systems and Collaborative Filtering Movie Recommendation Systems
 
 ![Coding](https://github.com/Fairuza97/AI/blob/main/mask.jpg)
 
