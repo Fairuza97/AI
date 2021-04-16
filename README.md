@@ -2,7 +2,7 @@
 
 ## A. PROJECT SUMMARY
 
-**Project Title:** Face Mask Detection using Deep Learning
+**Project Title:** Movie Recommendation
 
 **Team Members:** 
 - [insert Member Name]
@@ -13,8 +13,8 @@
 
 - [ ] **Objectives:**
 - Break out the project goal into more specific objectives
--  To help people make the right choices, without having to expend their cognitive resources.
-- [insert]
+- To help people make the right choices, without having to expend their cognitive resources.
+- To search for content that would be interesting to an individual
 - [insert]
 
 
