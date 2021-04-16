@@ -24,9 +24,9 @@ Nowadays we live in era of abundance. For any given product, there are many of o
 
 There are two categories for recommender system which are Content-Based Movie Recommendation Systems and Collaborative Filtering Movie Recommendation Systems
 
-![Coding](https://github.com/Fairuza97/AI/blob/main/mask.jpg)
+![Coding](https://github.com/Fairuza97/AI/blob/main/movieRecommendation.png)
 
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+Figure 1 shows the AI output of movie recommendation.
 
 
 ## C.  DATASET
