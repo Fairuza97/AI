@@ -40,8 +40,21 @@ Figure 2 shows the dataset from MovieLens.
 
 There are two categories for recommender system which are Content-Based Movie Recommendation Systems and Collaborative Filtering Movie Recommendation Systems
 
-**Content-Based Movie Recommendation Systems** 
+**Content-Based Movie Recommendation Systems:** 
+
 Content-based methods are based on the similarity of movie attributes. Using this type of recommender system, if a user watches one movie, similar movies are recommended. For example, if a user watches a comedy movie starring Adam Sandler, the system will recommend them movies in the same genre or starring the same actor, or both. With this in mind, the input for building a content-based recommender system is movie attributes.
+
+![Coding](https://github.com/Fairuza97/AI/blob/main/ContentBased.JPG)
+Figure 3 show overview of content-based recommendation system
+
+**Collaborative Filtering Movie Recommendation Systems:** 
+
+With collaborative filtering, the system is based on past interactions between users and movies. With this in mind, the input for a collaborative filtering system is made up of past data of user interactions with the movies they watch.
+For example, if user A watches M1, M2, and M3, and user B watches M1, M3, M4, we recommend M1 and M3 to a similar user C. You can see how this looks in the figure below for clearer reference.
+
+![Coding](https://github.com/Fairuza97/AI/blob/main/ContentBased.JPG)
+Figure 3 show overview of content-based recommendation system
+
 
 
 
