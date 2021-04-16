@@ -77,7 +77,7 @@ Both are good as they allow for easy interpretation.
 **Root Mean Squared Error (RMSE):**
 RMSE is the square root of the average of squared errors and is given by the below formula.
 
-![Coding](https://github.com/Fairuza97/AI/blob/main/matric.JPG)
+![Coding](https://github.com/Fairuza97/AI/blob/main/RMSE.JPG)
 
 Where:
 r is the actual rating,
@@ -87,14 +87,14 @@ N is the total number of predictions
 **Mean Absolute Percentage Error (MAPE):**
 MAPE measures the error in percentage terms. It is given by the formula below:
 
-![Coding](https://github.com/Fairuza97/AI/blob/main/matric.JPG)
+![Coding](https://github.com/Fairuza97/AI/blob/main/MAPE.JPG)
 
 Where:
 r is the actual rating,
 r^ is the predicted ratings and
 N is the total number of predictions
 
-![Coding](https://github.com/Fairuza97/AI/blob/main/matric.JPG)
+![Coding](https://github.com/Fairuza97/AI/blob/main/code.JPG)
 
 Our model resulted in 0.67 RMSE, and 19.86 MAPE on the unseen test data, which is a good-to-go model. An RMSE value of less than 2 is considered good, and a MAPE less than 25 is excellent. That said, this model can be further enhanced by adding features that would be recommended based on the top picks dependent on location or genre. We could also test the efficacy of our various models in real-time through A/B testing.
 
