@@ -5,8 +5,8 @@
 **Project Title:** Movie Recommendation
 
 **Name & Matric No:** 
--Nur Fairuza Syahira Binti Nor Hidan
--B031910233
+Nur Fairuza Syahira Binti Nor Hidan
+(B031910233)
 
 **Objectives:**
 - Break out the project goal into more specific objectives
