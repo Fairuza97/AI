@@ -64,9 +64,9 @@ For the project use Matrix Factorization-based Algorithm for Collaborative filte
 Matrix factorization algorithms work by decomposing the user-movie interaction matrix into the product of two lower dimensionality rectangular matrices, say U and M. The decomposition is done in such a way that the product results in almost similar values to the user-movie interaction matrix. Here, U represents the user matrix, M represents the movie matrix, n is the number of users, and m is the number of movies.
 Each row of the user matrix represents a user and each column of the movie matrix represents a movie.
 
-![Coding](https://github.com/Fairuza97/AI/blob/main/projectStructure.png)
+![Coding](https://github.com/Fairuza97/AI/blob/main/matric.JPG)
 
-Figure 4 show an example of the collaborative filtering movie recommendation system
+Figure 5 show Matrix factorization 
 
 
 ## E   TRAINING THE COVID-19 FACE MASK DETECTION
