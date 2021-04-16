@@ -34,7 +34,16 @@ Figure 1 shows the AI output of movie recommendation.
 For our own system, I use the open-source MovieLens dataset from GroupLens. This dataset contains 100K data points of various movies and users.
 I will use three columns from the data which is userId, movieId, rating.
 
-![Coding](https://github.com/Fairuza97/AI/blob/main/movieRecommendation.png)
+![Coding](https://github.com/Fairuza97/AI/blob/main/dataset.JPG)
+
+Figure 2 shows the dataset from MovieLens.
+
+There are two categories for recommender system which are Content-Based Movie Recommendation Systems and Collaborative Filtering Movie Recommendation Systems
+
+**Content-Based Movie Recommendation Systems** 
+Content-based methods are based on the similarity of movie attributes. Using this type of recommender system, if a user watches one movie, similar movies are recommended. For example, if a user watches a comedy movie starring Adam Sandler, the system will recommend them movies in the same genre or starring the same actor, or both. With this in mind, the input for building a content-based recommender system is movie attributes.
+
+
 
 
 Given the trained COVID-19 face mask detector, we’ll proceed to implement two more additional Python scripts used to:
