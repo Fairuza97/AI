@@ -1,4 +1,4 @@
-# FACE MASK DETECTION USING DEEP LEARNING 
+# MOVIE RECOMMENDATION
 
 ## A. PROJECT SUMMARY
 
@@ -13,7 +13,7 @@
 
 - [ ] **Objectives:**
 - Break out the project goal into more specific objectives
-- [insert]
+-  To help people make the right choices, without having to expend their cognitive resources.
 - [insert]
 - [insert]
 
