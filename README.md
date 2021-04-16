@@ -31,13 +31,9 @@ Figure 1 shows the AI output of movie recommendation.
 
 ## C.  DATASET
 
-In this project, we’ll discuss our two-phase COVID-19 face mask detector, detailing how our computer vision/deep learning pipeline will be implemented.
+For our own system, we’ll use the open-source MovieLens dataset from GroupLens. This dataset contains 100K data points of various movies and users.
+We will use three columns from the data which is userId, movieId, rating
 
-From there, we’ll review the dataset we’ll be using to train our custom face mask detector.
-
-I’ll then show you how to implement a Python script to train a face mask detector on our dataset using Keras and TensorFlow.
-
-We’ll use this Python script to train a face mask detector and review the results.
 
 Given the trained COVID-19 face mask detector, we’ll proceed to implement two more additional Python scripts used to:
 
